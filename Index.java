@@ -8,7 +8,8 @@ public class Index {
  	System.out.print("Which program do you want to run: ");
  	int choice = input.nextInt();
 
-    while ((choice>=1) && (choice <=8)) {
+//an infinite loop for the menu to pop up after finish running code; instruction is showed <Ctrl+Z> for the users to stop the code from running
+    for (int i = 0; i >= 0; i++) {
 
 		switch(choice) {
 			case 1 :

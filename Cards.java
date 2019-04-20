@@ -15,8 +15,6 @@ public class Cards {
 				deck[i] = value[valueNum]+" of "+suit[suitNum];
 				valueNum = 0;
 				suitNum++;
-			}else if(i == 51) {
-				deck[i] = value[valueNum]+" of "+suit[suitNum];
 			}else {
 				deck[i] = value[valueNum]+" of "+suit[suitNum];
 				valueNum++;
